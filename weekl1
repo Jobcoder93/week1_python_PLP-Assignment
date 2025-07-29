@@ -1,0 +1,18 @@
+operator=input("Write the sign from {'+','-','/','*'}you want to complete :")
+num1=int(input("Write the first number :"))
+num2=int(input("write the second number :"))
+
+if operator == "+":
+    result=num1 + num2
+    print(f"The sum of two number is : {result}")
+elif operator == "-":
+    result = num1 - num2
+    print(f"The difference of the two number is : {result}")
+elif operator == "/":
+    result=num1/num2
+    print(f"THe divison of two number is : {result}")
+elif operator =="*":
+    result= num1 * num2
+    print(f"The multiplication of two number is : {result}")
+else:
+    print("You didn't select any correct sign for this process please try again")
